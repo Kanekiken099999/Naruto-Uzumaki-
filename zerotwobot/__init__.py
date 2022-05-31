@@ -91,7 +91,7 @@ if ENV:
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", False))
     WORKERS = int(os.environ.get("WORKERS", 8))
-    BAN_STICKER = os.environ.get("BAN_STICKER", "CAACAgUAAx0EZBXeuwACBC9iliWq2-4AAWZhaY6jB56d5GfNNUIAAjwFAAL2N7lUbfFlSeTFwLAkBA")
+    BAN_STICKER = os.environ.get("BAN_STICKER", "CAACAgUAAx0CZBXeuwACBJRiljoGtEas6wU_omSXH3fqU-VY8QACEAcAAiTNsFRnFcBSoTeVliQE")
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
     CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
